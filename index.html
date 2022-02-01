@@ -1,0 +1,148 @@
+
+<html>
+
+<head>
+	<title>Login</title>
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<link rel="stylesheet" href="static.css">
+	<!-- <style>
+		body {
+			background-color: rgba(34,34,34,255);
+
+		}
+
+		.social-login img {
+			width: 24px;
+		}
+
+		a {
+			text-decoration: none;
+		}
+
+		.card {
+			font-family: sans-serif;
+			width: 300px;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 3em;
+			margin-bottom: 3em;
+			border-radius: 10px;
+			background-color: #ffff;
+			padding: 1.8rem;
+			box-shadow: 2px 5px 20px rgba(0, 0, 0, 0.1);
+		}
+
+		.title {
+			text-align: center;
+			font-weight: bold;
+			margin: 0;
+		}
+
+		.subtitle {
+			text-align: center;
+			font-weight: bold;
+		}
+
+		.btn-text {
+			margin: 0;
+		}
+
+		.social-login {
+			display: flex;
+			justify-content: center;
+			gap: 5px;
+		}
+
+		.google-btn {
+			background: #fff;
+			border: solid 2px rgb(245 239 239);
+			border-radius: 8px;
+			font-weight: bold;
+			display: flex;
+			padding: 10px 10px;
+			flex: auto;
+			align-items: center;
+			gap: 5px;
+			justify-content: center;
+		}
+
+		.fb-btn {
+			background: #fff;
+			border: solid 2px rgb(69, 69, 185);
+			border-radius: 8px;
+			padding: 10px;
+			display: flex;
+			align-items: center;
+		}
+
+		.or {
+			text-align: center;
+			font-weight: bold;
+			border-bottom: 2px solid rgb(245 239 239);
+			line-height: 0.1em;
+			margin: 25px 0;
+		}
+
+		.or span {
+			background: #fff;
+			padding: 0 10px;
+		}
+
+		.email-login {
+			display: flex;
+			flex-direction: column;
+		}
+
+		.email-login label {
+			color: rgb(170 166 166);
+		}
+
+		input[type="text"],
+		input[type="password"] {
+			padding: 15px 20px;
+			margin-top: 8px;
+			margin-bottom: 15px;
+			border: 1px solid #ccc;
+			border-radius: 8px;
+			box-sizing: border-box;
+		}
+
+		.cta-btn {
+			background-color: rgb(69, 69, 185);
+			color: white;
+			padding: 18px 20px;
+			margin-top: 10px;
+			margin-bottom: 20px;
+			width: 100%;
+			border-radius: 10px;
+			border: none;
+		}
+
+		.forget-pass {
+			text-align: center;
+			display: block;
+		}
+	</style> -->
+</head>
+<body >
+
+	<div class="card">
+		<div style="margin: auto; width: 100%; display: flex; justify-content: center;">
+			<img src="Capture.PNG" alt="smartserv logo" height="100px">
+		</div>
+			<form method="POST" action="login">
+				<br><br>
+				<div class="email-login">
+					<label for="username"> </label>
+					<input id="username" type="text" placeholder="Username" name="username" autocomplete="off" required>
+					<label for="psw"></label>
+					<input id="psw" type="password" placeholder="Password" name="password" required>
+				</div>
+				<button class="cta-btn" type="submit">Log In</button>
+				<a class="forget-pass" href="#">Forgot password?</a>
+			</form>
+	</div>
+</body>
+
+</html>
