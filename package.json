@@ -1,0 +1,23 @@
+{
+  "name": "smartserv_task3",
+  "version": "1.0.0",
+  "description": "task3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TwiggiestOak18/Smartserv_Task3.git"
+  },
+  "keywords": [
+    "task",
+    "3"
+  ],
+  "author": "ankit_raj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TwiggiestOak18/Smartserv_Task3/issues"
+  },
+  "homepage": "https://github.com/TwiggiestOak18/Smartserv_Task3#readme"
+}
